@@ -14,7 +14,8 @@ const Recordmodal = ({ bg, tcolor, text, rounded, width, heigt, hover }) => {
         className={`btn ${bg} ${tcolor} ${text} ${rounded} ${width} ${hover} ${heigt} `}
         onClick={() => document.getElementById("my_modal_1").showModal()}
       >
-        Record
+        {text}
+        {heigt}
       </button>
       <dialog id="my_modal_1" className="modal">
         <div className="flex flex-col h-[552px] rounded-md bg-white w-[792px]">

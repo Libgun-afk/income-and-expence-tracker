@@ -8,11 +8,11 @@ const Checkbox = () => {
           <input type="checkbox" className=" flex rounded-full w-4 h-4" /> All
         </div>
         <div className="flex gap-5 items-center">
-          <input type="checkbox" className=" flex rounded-full w-4 h-4" />{" "}
+          <input type="checkbox" className=" flex rounded-md w-4 h-4" />
           Income
         </div>
         <div className="flex gap-5 items-center">
-          <input type="checkbox" className=" flex rounded-full w-4 h-4" />{" "}
+          <input type="checkbox" className=" flex rounded-full w-4 h-4" />
           Expence
         </div>
       </div>

@@ -1,29 +1,31 @@
 "use client";
 import React from "react";
-import { Button } from "../Button";
-import { Inputt } from "../Inputt";
 import Checkbox from "./Checkbox";
 import Recordmodal from "../Recordmodal";
 
 const AddItem = () => {
   return (
-    <div>
-      <div>Recordc</div>
+    <div className="flex flex-col gap-5">
+      <div className="font-semibold text-2xl">Recordc</div>
       <div>
         <Recordmodal
-          text={"+ Record"}
+          text={"Add item"}
           bg={"bg-blue-500"}
           tcolor={"text-white"}
           rounded={"rounded-2xl"}
-          width={"w-[100px]"}
-          height={"h-[20px]"}
+          width={"w-[250px]"}
+          height={"h-[32px]"}
           hover={"hover:bg-blue-600"}
         />
       </div>
-      <Inputt
+
+      <input
+        type="type"
         placeholder="Search"
-        className="flex items-center border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="bg-gray-100 rounded-lg p-4 border-[1px] border-gray-300 hover:bg-gray-200 w-[250px] h-[32px]"
       />
+
+      <div className="font-semibold text-base text-[#1F2937]">Types</div>
       <Checkbox />
     </div>
   );

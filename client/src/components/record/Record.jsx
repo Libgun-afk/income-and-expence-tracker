@@ -7,13 +7,16 @@ import Range from "./Range";
 
 export const Record = () => {
   return (
-    <div>
+    <div className="bg-white">
       <Header />
-      <AddItem />
-      <Category />
-      <Select />
-      <div>+ Add Category</div>
-      <Range />
+      <div className="flex w-[1200px] mx-auto h-full my-auto">
+        <div className="flex flex-col gap-10">
+          <AddItem />
+          <Category />
+          <Select />
+          <Range />
+        </div>
+      </div>
     </div>
   );
 };
