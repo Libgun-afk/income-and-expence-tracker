@@ -104,7 +104,7 @@ export const LogInSign = () => {
             </Link>
           </div>
         </div>
-        <div className="bg-[#0166FF] w-1/2 h-screen"></div>
+        <div className="bg-[#0166FF] w-1/2 h-screen">blue</div>
       </div>
     </>
   );
